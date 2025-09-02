@@ -1,0 +1,85 @@
+/* === Component Styles === */
+// @import './assets/styles/Main.scss';
+// @import './assets/styles/Contact.scss';
+// @import './assets/styles/Expertise.scss';
+// @import './assets/styles/Footer.scss';
+// @import './assets/styles/Project.scss';
+// @import './assets/styles/Timeline.scss';
+
+@use './assets/styles/Main';
+@use './assets/styles/Contact';
+@use './assets/styles/Expertise';
+@use './assets/styles/Footer';
+@use './assets/styles/Project';
+@use './assets/styles/Timeline';
+
+/* === Global Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #141414;
+  color: #e0e0e0;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* === Theme Styles === */
+body.dark-theme {
+  background-color: #141414;
+  color: #e0e0e0;
+
+  .navigation-bar {
+    background-color: #1f1f1f;
+  }
+
+  .about-section {
+    background-color: transparent;
+    color: #e0e0e0;
+    background-image: url('/src/assets/images/bg-dark.png'); // replace with actual path
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+body.light-theme {
+  background-color: #ffffff;
+  color: #121212;
+
+  .navigation-bar {
+    background-color: #f1f1f1;
+  }
+
+  .about-section {
+    background-color: #ffffff;
+    color: #121212;
+    background-image: url('/src/assets/images/bg-light.png'); // replace with actual path
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+// /* === Component Styles === */
+// @import './assets/styles/Main.scss';
+// @import './assets/styles/Contact.scss';
+// @import './assets/styles/Expertise.scss';
+// @import './assets/styles/Footer.scss';
+// @import './assets/styles/Project.scss';
+// @import './assets/styles/Timeline.scss';
