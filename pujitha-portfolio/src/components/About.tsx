@@ -2,7 +2,7 @@ import '../assets/styles/About.scss';
 
 function About() {
   return (
-    <div className="about-container">
+    <div id="About" className="about-container">
       <div className="about-content">
         <h2>About Me</h2>
         <p>
