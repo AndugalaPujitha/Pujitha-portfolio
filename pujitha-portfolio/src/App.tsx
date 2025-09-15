@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Main from './components/Main';
 import Navigation from './components/Navigation';
 import Expertise from './components/Expertise';
+import About from './components/About';
 import Timeline from './components/Timeline';
 import Project from './components/Project';
 import Contact from './components/Contact';
@@ -23,6 +24,7 @@ const App: React.FC = () => {
     <>
       <Navigation parentToChild={{ mode }} modeChange={modeChange} />
       <Main />
+      <About />
       <Expertise />
       <Timeline />
       <Project />
