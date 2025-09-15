@@ -9,8 +9,8 @@ function Main() {
       <div className="about-section">
         <div className="image-wrapper">
           {/* <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" /> */}
-          {/* <img src="C:/Users/Victus/Desktop/Portfolio/pujitha-portfolio/src/assets/images/puji_11zon.jpg" alt="Avatar" /> */}
-          <img src="https://media.licdn.com/dms/image/v2/D5603AQG7a1mA6tIA7w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693239695964?e=1752710400&v=beta&t=jfYSr9PLBOMPnEbPjB_6f0B62_Y-Hm8kuBzbviLQtqY" alt="Avatar" />
+          <img src="C:/Users/Victus/Desktop/Portfolio/pujitha-portfolio/src/assets/images/puji_11zon.png" alt="Avatar" />
+          {/* <img src="https://media.licdn.com/dms/image/v2/D5603AQG7a1mA6tIA7w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693239695964?e=1752710400&v=beta&t=jfYSr9PLBOMPnEbPjB_6f0B62_Y-Hm8kuBzbviLQtqY" alt="Avatar" /> */}
           
           
         </div>
