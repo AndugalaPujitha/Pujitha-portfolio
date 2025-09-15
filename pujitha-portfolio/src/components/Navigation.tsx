@@ -24,7 +24,7 @@ type NavigationProps = {
 };
 
 const drawerWidth = 240;
-const navItems = [['Education', 'expertise'], ['Projects', 'projects'], ['Contact', 'contact']];
+const navItems = [['About Me', 'About'],['Education', 'expertise'], ['Projects', 'projects'], ['Contact', 'contact']];
 
 function Navigation({ parentToChild, modeChange }: NavigationProps) {
   const { mode } = parentToChild;
